@@ -16,7 +16,17 @@ class NavBar extends Component {
                     <div className='navbar_location'>Batticaloa</div>
                 </div>
                 <div className='navbar_searchcomponent'>
-                    <div></div>
+                <div className='nav_dropdown'>
+                    <select>
+                        <option value="All">All</option>
+                        <option value="Alexa">Alexa</option>
+                        <option value="Books">Books</option>
+                        <option value="Baby">Baby</option>
+                        <option value="Beauty">Beauty</option>
+                        <option value="Clothes">Clothes</option>
+                    </select>
+                </div>
+
                     <div>
                         <input type='text' className='navbar_searchbox'></input>
                     </div>
