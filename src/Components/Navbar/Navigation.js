@@ -15,6 +15,14 @@ class NavBar extends Component {
                     <div className='navbar_locatorImage'></div>
                     <div className='navbar_location'>Batticaloa</div>
                 </div>
+                <div>
+                    <div></div>
+                    <div>
+                        <input type='text' className='navbar_searchbox'></input>
+                    </div>
+                    <div></div>
+
+                </div>
             </div>
         );
     }

@@ -27,3 +27,9 @@
 	width: 18px;
 	height: 40px;
 }
+
+.navbar_searchbox {
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+}
