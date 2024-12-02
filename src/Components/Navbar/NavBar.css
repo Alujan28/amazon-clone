@@ -1,0 +1,29 @@
+.navbar_component {
+    width: 100vw;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+}
+
+.navbar_logo {
+    background: url('https://ik.imagekit.io/amazone123/amazon-image/amazon-image/sprite_350x.png') no-repeat -9px -50px;
+    width: 98px;
+    height: 31px;
+    margin: 18px;
+}
+
+.navbar_locator {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.navbar_location {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar_locatorImage{
+    background: url('https://ik.imagekit.io/amazone123/amazon-image/amazon-image/sprite_350x.png') no-repeat -70px -376px;
+	width: 18px;
+	height: 40px;
+}
